@@ -1,10 +1,9 @@
-/**
- * 
- */
-var input = prompt ("Enter a number");
-
-for(var i= 0; i <=input; i++){
-	var total =0;
+<script>
+var num1 = parseInt(prompt("Enter a Value", "0"), 10);
+var total= 0;
+for(var i= 1; i <=num1; i++){
+	
 	total = total + i;
-	console.log(toatl);
+	document.write(total +",");
 }
+</script>
